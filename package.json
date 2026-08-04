@@ -1,0 +1,29 @@
+{
+  "name": "qwen-console-agent",
+  "version": "1.0.0",
+  "description": "Aplicación de consola multiplataforma para interactuar con Qwen mediante automatización del navegador",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "qwen-agent": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "login": "node src/login.js",
+    "check-session": "node src/check-session.js"
+  },
+  "keywords": [
+    "qwen",
+    "chat",
+    "console",
+    "agent",
+    "playwright"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "readline-sync": "^1.4.10",
+    "mkdirp": "^3.0.1"
+  }
+}
