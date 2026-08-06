@@ -22,7 +22,7 @@ target/
 *.obj
 *.out
 
-# Editors/IDEs
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
